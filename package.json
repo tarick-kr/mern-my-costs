@@ -1,11 +1,11 @@
 {
-  "name": "my-costs",
+  "name": "mern-my-costs",
   "version": "1.0.0",
   "description": "My costs App build with the MERN stack",
   "main": "server.js",
   "scripts": {
     "client-install": "npm install --prefix client",
-    "start": "node server.js",
+    "start":  "node server.js",
     "server": "nodemon server.js",
     "client": "npm start --prefix client",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
